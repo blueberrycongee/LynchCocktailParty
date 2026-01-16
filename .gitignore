@@ -1,0 +1,9 @@
+state/*.json
+state/*.log
+state/.last_message_*.txt
+state/.run.lock
+state/report.md
+state/report.json
+__pycache__/
+.DS_Store
+*.log

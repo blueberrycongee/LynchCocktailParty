@@ -1,0 +1,4 @@
+topic: China gold and silver (precious metals)
+time_range: last_7_days
+region: China
+notes: focus on gold/silver spot and futures in China, SGE premiums, CNY, PBoC/SAFE policy, import quotas, demand indicators, ETF flows, and macro data
