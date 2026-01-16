@@ -20,6 +20,8 @@ Auto mode (watch topic changes)
 - use `prompts/00_ground_env.md`
 - write output JSON to `state/ground_facts.json`
 - append log block to `state/party.log`
+   - Windows (local fetch): `powershell -NoProfile -ExecutionPolicy Bypass -File .\ground_fetch.ps1`
+   - macOS/Linux (local fetch): `bash ./ground_fetch.sh`
 
 2) Level-0 Noise Trader
 - use `prompts/01_level0_noise_trader.md`

@@ -15,7 +15,8 @@ Quick start (Codex/Claude Code)
    - `state/topic.txt`
 
 2) Build Ground facts (RSS + Stooq CSV)
-   - `powershell -NoProfile -ExecutionPolicy Bypass -File .\ground_fetch.ps1`
+   - Windows: `powershell -NoProfile -ExecutionPolicy Bypass -File .\ground_fetch.ps1`
+   - macOS/Linux: `bash ./ground_fetch.sh`
 
 3) Run Level-0 -> God (use gpt-5.2 by default)
    - `.\run.ps1 -SkipGround -BypassSandbox -Sandbox danger-full-access -NoSearch`
